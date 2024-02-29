@@ -6,7 +6,7 @@ var mes int
 
 func main() {
 	fmt.Println("Ingrese un numero del 1 al 12: ")
-	fmt.Scanf("%5", &mes)
+	fmt.Scanf("%d", &mes)
 	switch {
 	case mes == 1:
 		fmt.Println("Enero")
